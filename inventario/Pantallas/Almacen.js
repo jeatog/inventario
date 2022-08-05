@@ -11,7 +11,7 @@ export default function Almacen( {route} ){
       return new Date(b.__last_update).getTime() - new Date(a.__last_update).getTime()
     }
 
-    /*  ===   LA FUNCIÓN PARA RECUPERAR DEBE IR AQUÍ.   === */
+    /*  ===   LA FUNCIÓN PARA RECUPERAR LOS DATOS DEBE IR AQUÍ.   === */
     const token = 'access_token_1564a2ada7a2fa0c9eb27b897d0b6c976180d149'
     let URL = 'http://35.223.16.133/api/'
 
