@@ -1,7 +1,6 @@
 import React, { useState, useEffect }  from 'react';
 import { StyleSheet, Text, View, Button, ScrollView } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-//import fetch from 'node-fetch'
 
 export default function Almacen( {route} ){
     const { almaElegido } = route.params; 
@@ -38,10 +37,9 @@ export default function Almacen( {route} ){
           console.log(error)
       })
     }
+    
     const almacenes = getAlmacenes();
-
-    //console.log(almacenes);
-
+    
     return(
         <ScrollView style = { {backgroundColor: '#fff'} }>
                 <View style={styles.container}>

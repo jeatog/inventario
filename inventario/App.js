@@ -11,6 +11,7 @@ import Categoria_elegida from './Pantallas/Categoria_elegida'
 import Escaner from './Pantallas/Escaner';
 import Scanner from './Pantallas/Scanner';
 import Finalizar from './Pantallas/Finalizar';
+import Fin from './Pantallas/Fin';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -30,6 +31,7 @@ function App() {
       <Stack.Screen name="Escaner" component={Escaner}/>
       <Stack.Screen name="Scanner" component={Scanner}/>
       <Stack.Screen name="Finalizar" component={Finalizar}/>
+      <Stack.Screen name="Fin" component={Fin}/>
     </Stack.Navigator>
   );
 }
